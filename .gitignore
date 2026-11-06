@@ -1,0 +1,12 @@
+# Private context and reference material – never commit
+CLAUDE.local.md
+reference/
+
+# Secrets and local config
+.env
+.env.*
+
+# Output and OS noise
+*.pdf
+node_modules/
+.DS_Store

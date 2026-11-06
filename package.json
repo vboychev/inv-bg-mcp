@@ -1,0 +1,43 @@
+{
+  "name": "inv-bg-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for the inv.bg invoicing API – local stdio, zero dependencies",
+  "main": "server.js",
+  "bin": {
+    "inv-bg-mcp": "server.js"
+  },
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "selftest": "node server.js --selftest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "inv.bg",
+    "invoices",
+    "bulgaria",
+    "claude"
+  ],
+  "author": "Vasil Boychev",
+  "contributors": [
+    "Mihail Shahov (https://github.com/shaxaaa)",
+    "Nikolay Tsekov (https://github.com/ntsekov)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vboychev/inv-bg-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vboychev/inv-bg-mcp/issues"
+  },
+  "homepage": "https://github.com/vboychev/inv-bg-mcp#readme"
+}
